@@ -17,7 +17,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 ### 📎 Homepages
 - Personal Pages: 🌱 [Personal Pages](https://kailinjiang.github.io/). (updated recently🔥)
 - Google Scholar: 🔭 [Google Scholar](https://scholar.google.com/citations?user=NSHQsrAAAAAJ&hl=zh-CN). 
-- Email：📫 [BIGAI](jiangkailin@bigai.ai).
+- Email：📫 [BIGAI Email](jiangkailin@bigai.ai).
 
 # 📝 Publications 
 
