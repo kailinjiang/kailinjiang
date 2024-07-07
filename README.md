@@ -19,18 +19,19 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 <table>
   <tr>
-    <td style="position: relative;">
+    <td style="position: relative; width: 40%; vertical-align: top;">
       <img src="images/overview.png" alt="sym" width="100%">
       <div style="position: absolute; top: 0; left: 0; background-color: #0056b3; color: white; padding: 2px 5px; font-size: 12px; border-radius: 3px;">
         Under Review
       </div>
     </td>
-    <td style="padding-left: 20px;">
+    <td style="width: 60%; padding-left: 20px; vertical-align: top;">
       <a href="https://arxiv.org/pdf/2406.11194">In-Context Editing: Learning Knowledge from Self-Induced Distributions</a><br>
       Siyuan Qi, Bangcheng Yang, <strong>Kailin Jiang</strong>, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】
     </td>
   </tr>
 </table>
+
 
 
 
