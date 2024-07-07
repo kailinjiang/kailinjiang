@@ -17,22 +17,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 # 📝 Publications 
 
-<table style="width: 100%; border-collapse: collapse; border: none;">
-  <tr style="border: none;">
-    <td style="position: relative; width: 10%; vertical-align: top; border: none;">
-      <img src="images/overview.png" alt="sym" style="width: 100%;">
-      <div style="position: absolute; top: 0; left: 0; background-color: #0056b3; color: white; padding: 2px 5px; font-size: 12px; border-radius: 3px;">
-        Under Review
-      </div>
-    </td>
-    <td style="width: 90%; padding-left: 20px; vertical-align: top; border: none;">
-      <a href="https://arxiv.org/pdf/2406.11194">In-Context Editing: Learning Knowledge from Self-Induced Distributions</a><br>
-      Siyuan Qi, Bangcheng Yang, <strong>Kailin Jiang</strong>, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】
-    </td>
-  </tr>
-</table>
-
-
+- ``Under Review`` [In-Context Editing:Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194), Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】.
 
 
 
