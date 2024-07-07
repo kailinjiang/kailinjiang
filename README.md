@@ -14,6 +14,9 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
+### 📎 Homepages
+- Personal Pages: https://kailinjiang.github.io/ (updated recently🔥)
+- Google Scholar: https://scholar.google.com/citations?user=NSHQsrAAAAAJ&hl=zh-CN
 
 # 📝 Publications 
 
