@@ -35,13 +35,13 @@ Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong,
 
 
 # 📖 Educations
-- **2024.06 - now**, <img src='./images/ustc.png' style='width: 2em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
+- **2024.06 - now**, <img src='./images/ustc.png' style='width: 1em;'> **University of Science and Technology of China (USTC), PhD student**. I am pursuing a degree in Information and Communication Engineering at USTC's School of Information Science and Technology, and the program is co-training with the State Key Laboratory of General Artificial Intelligence.
 
 - **2020.09 - 2024.06**, **Sichuan Agricultural University (SICAU), graduate student**. I am studying for a degree in Information and Computational Science at the college of science in SICAU.
 
 
 # 💻 Internships
-- **2024.02 - 2024.08**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), mas lab, algorithm intern.
+- **2024.02 - 2024.08**, <img src='./images/logo960.png' style='width: 4em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), mas lab, algorithm intern.
 
 
 
