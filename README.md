@@ -16,13 +16,17 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/overview.png' alt="sym" width="80%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-[In-Context Editing:Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194)
-  
-Siyuan Qi, Bangcheng Yang, **Kailin Jiang**, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】
-</div>
+<div style="display: flex; align-items: flex-start;">
+    <div style="position: relative; width: 40%;">
+        <div style="position: absolute; top: 0; left: 0; background: #f0ad4e; color: white; padding: 5px; font-size: 12px; border-radius: 3px;">
+            Under Review
+        </div>
+        <img src='images/overview.png' alt="sym" style="width: 100%; margin-top: 20px;">
+    </div>
+    <div style="width: 60%; padding-left: 20px;">
+        <p><a href="https://arxiv.org/pdf/2406.11194">In-Context Editing: Learning Knowledge from Self-Induced Distributions</a></p>
+        <p>Siyuan Qi, Bangcheng Yang, <strong>Kailin Jiang</strong>, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】</p>
+    </div>
 </div>
 
 
