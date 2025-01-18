@@ -51,7 +51,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 # 💻 GitHub Stats
 
-![Kailin Jiang's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kailinjiang&show_icons=true&theme=merko)
+![Kailin Jiang's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kailinjiang&show_icons=true&theme=gruvbox)
 
 
 
