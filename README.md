@@ -48,11 +48,10 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 
-![Kailin Jiang's GitHub stats](https://github-readme-stats.vercel.app/api?username=kailinjiang&show_icons=true&theme=radical)
+![Kailin Jiang's GitHub stats](https://github-readme-stats.vercel.app/api?username=kailinjiang&show_icons=true&theme=dark)
 
 
-[![Kailin Jiang's github stats](https://github-readme-stats.vercel.app/api?username=wangxinyu0922&hide=stars,prs&count_private=true&theme=vue&show_icons=true)](https://github.com/wangxinyu0922) 
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wangxinyu0922&theme=tokyonight&layout=compact)](https://github.com/wangxinyu0922) -->
+
 
 
 
