@@ -49,7 +49,8 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 
-# 💻 GitHub Stats
+# ![Data Analysis Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Crystal_clear_action_statistics.png/600px-Crystal_clear_action_statistics.png)
+ GitHub Stats
 
 ![Kailin Jiang's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kailinjiang&show_icons=true&theme=tokyonight)
 
