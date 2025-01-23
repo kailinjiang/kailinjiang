@@ -28,6 +28,23 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR2025</div><img src='images/CoIN_architecture.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[In-Context Editing: Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194)
+
+Siyuan Qi, Bangcheng Yang, `Kailin Jiang`, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng
+
+NeurIPS 2024 Datasets and Benchmarks
+
+Keywords: Continual Learning, Instruction Tuning, Multimodel Large Language Model
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2406.11194-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.11194)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ICE-blue)](https://huggingface.co/datasets/Yofuria/ICE)  [![paperwithcode](https://img.shields.io/badge/PWC-ICE-blue?logo=paperswithcode)](https://paperswithcode.com/paper/in-context-editing-learning-knowledge-from)  [![code](https://img.shields.io/badge/Code-ICE-blue?logo=github)](https://github.com/bigai-ai/ICE)
+
+</div>
+</div>
+
+
 
 
 # 🎖 Honors and Awards
