@@ -28,7 +28,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 [![arXiv](https://img.shields.io/badge/Arxiv-2406.11194-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.11194)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ICE-blue)](https://huggingface.co/datasets/Yofuria/ICE)  [![paperwithcode](https://img.shields.io/badge/PWC-ICE-blue?logo=paperswithcode)](https://paperswithcode.com/paper/in-context-editing-learning-knowledge-from)  [![code](https://img.shields.io/badge/Code-ICE-blue?logo=github)](https://github.com/bigai-ai/ICE)
 
 - `ICLR2025` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](), Yuntao Du, **Kailin Jiang**<sup>*</sup>, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
-
+[![arXiv](https://img.shields.io/badge/Arxiv-2502.19870-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2502.19870) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKE-Bench-blue)](https://huggingface.co/datasets/kailinjiang/MMKE-Bench-dataset) [![code](https://img.shields.io/badge/Code-MMKE-Bench-blue?logo=github)](https://github.com/MMKE-Bench-ICLR/MMKE-Bench)
 
 
 
