@@ -49,8 +49,8 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 # 💻 Internships
-- **2024.02 - 2024.08**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, algorithm intern.
-- **2024.08 - now**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, algorithm intern.
+- **2024.02 - 2024.08**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **MAS Lab**, Algorithm Intern.
+- **2024.08 - now**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
 
 
 
