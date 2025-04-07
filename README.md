@@ -36,7 +36,10 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2406.11194-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2406.11194)  [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-ICE-blue)](https://huggingface.co/datasets/Yofuria/ICE)  [![paperwithcode](https://img.shields.io/badge/PWC-ICE-blue?logo=paperswithcode)](https://paperswithcode.com/paper/in-context-editing-learning-knowledge-from)  [![code](https://img.shields.io/badge/Code-ICE-blue?logo=github)](https://github.com/bigai-ai/ICE) 
 
-[![AIModels.fyi](https://img.shields.io/badge/AIModels.fyi-ICE-blue?logo=anthropic)](https://www.aimodels.fyi/papers/arxiv/context-editing-learning-knowledge-from-self-induced)
+[![AIModels.fyi](https://img.shields.io/badge/AIModels.fyi-ICE-blue?logo=anthropic)](https://www.aimodels.fyi/papers/arxiv/context-editing-learning-knowledge-from-self-induced) [![actix](https://img.shields.io/badge/极市平台-ICE-red?logo=actix)](https://mp.weixin.qq.com/s/Mr9HPeHJSsVfUIeF6j-zWw)
+
+
+
 
 
 # 📝 Publications (Other Author) 
