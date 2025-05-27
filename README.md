@@ -76,15 +76,24 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - **2024.08 - now**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
 
 
-<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-
+<div style="display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;">
   <div style="text-align: center;">
-    <img src="./images/logo960.png" alt="BIGAI" style="width: 100px; height: 40px;">
+    <img
+      src="./images/logo960.png"
+      alt="BIGAI"
+      style="width: auto;
+             height: auto;
+             display: block;
+             margin: 0 auto;"
+    >
     <!-- <p>Company 1</p> -->
   </div>
 
   <!-- copy and add -->
-
 </div>
 
 
