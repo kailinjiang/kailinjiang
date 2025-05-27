@@ -90,6 +90,12 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 </div>
 
 
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <img src="./images/logo960.png" alt="BIGAI" style="width: 200px; height: 60px;">
+</div>
+
+
+
 # 📊 GitHub Stats
 
 ![Kailin Jiang's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kailinjiang&show_icons=true&theme=tokyonight)
