@@ -85,7 +85,16 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
   <!-- 复制并添加更多图像块即可 -->
 </div>
 
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
 
+  <div style="text-align: center;">
+    <img src="i./images/logo960.png" alt="BIGAI" style="width: 100px; height: 40px;">
+    <!-- <p>Company 1</p> -->
+  </div>
+
+  </div>
+
+</div>
 
 
 # 📊 GitHub Stats
