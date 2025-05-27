@@ -89,10 +89,11 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 </div>
 
-
-<div style="text-align: center;">
-  <img src="./images/logo960.png" alt="BIGAI" style="width: 200px; height: 60px;">
-</div>
+<body style="margin: 0;">
+  <div style="width: 100%; text-align: center;">
+    <img src="./images/logo960.png" alt="BIGAI" style="width: 200px; height: 60px;">
+  </div>
+</body>
 
 
 
