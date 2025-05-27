@@ -76,6 +76,17 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - **2024.08 - now**, <img src='./images/logo960.png' style='width: 6em;'> the State Key Laboratory of General Artificial Intelligence(Beijing,China), **ML Lab**, Intern Researcher.
 
 
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+
+  <div style="text-align: center;">
+    <img src="./images/logo960.png" alt="BIGAI" style="width: 100px; height: 40px;">
+    <!-- <p>Company 1</p> -->
+  </div>
+
+  <!-- copy and add -->
+
+</div>
+
 
 
 # 📊 GitHub Stats
