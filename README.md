@@ -77,7 +77,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-  <div style="display: flex; justify-content: center; align-items: center; width: 130px; height: 60px;">
+  <div style="display: flex; justify-content: center; align-items: center; width: 80px; height: 30px;">
     <img src="./images/logo960.png" alt="BIGAI" style="max-width: 100%; max-height: 100%;">
     <!-- <p>Company 1</p> -->
   </div>
