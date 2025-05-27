@@ -24,6 +24,13 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 # 📝 Publications (First Author) 
 
+
+- `Preprint` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) 
+
+
+
 - `ICLR2025 & ICLR2025 Workshop SSI-FM` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/abs/2502.19870), Yuntao Du\*, **Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2502.19870-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2502.19870) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKE_Bench-blue)](https://huggingface.co/datasets/kailinjiang/MMKE-Bench-dataset)  [![paperwithcode](https://img.shields.io/badge/PWC-MMKE_Bench-blue?logo=paperswithcode)](https://paperswithcode.com/paper/mmke-bench-a-multimodal-editing-benchmark-for)  [![code](https://img.shields.io/badge/Code-MMKE_Bench-blue?logo=github)](https://github.com/MMKE-Bench-ICLR/MMKE-Bench) [![website](https://img.shields.io/badge/Website-MMKE_Bench-orange?logo=homepage)](https://mmke-bench-iclr.github.io/) [![depositphotos](https://img.shields.io/badge/Poster-MMKE_Bench-red?logo=depositphotos)](./images/poster/iclr25_mmke_bench_poster.pdf)
