@@ -86,7 +86,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
       src="./images/logo960.png"
       alt="BIGAI"
       style="max-width: 80px;  /* 限制最大宽度为150px */
-             height: auto;     /* 高度自适应，保持比例 */
+             height: 40px;     /* 高度自适应，保持比例 */
              display: block;
              margin: 0 auto;"
     >
