@@ -22,13 +22,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - BIGAI Email：📫  jiangkailin@bigai.ai
 - USTC Email：📫  kailinjiang@mail.ustc.edu.cn
 
-# 📝 Publications (First Author) 
-
-
-- `Preprint` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
-
+# 📝 Publications
 
 
 - `ICLR2025 & ICLR2025 Workshop SSI-FM` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/abs/2502.19870), Yuntao Du\*, **Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
@@ -49,7 +43,14 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 
-# 📝 Publications (Other Author) 
+# 📝 Preprint
+
+
+
+- `Preprint` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
+
 
 
 
