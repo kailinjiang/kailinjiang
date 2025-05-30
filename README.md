@@ -46,6 +46,11 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 # 📝 Preprints
 
 
+- `Preprint` [When Large Multimodal Models Confront Evolving Knowledge: Challenges and Pathways](),  Kailin Jiang, Yuntao Du, Yukai Ding, Yuchen Ren, Ning Jiang, Zhi Gao, Zilong Zheng, Lei Liu, Bin Li, Qing Li.【2025.6】<br>
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)]() [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-EVOKE-blue)](https://huggingface.co/datasets/kailinjiang/EVOKE)   [![code](https://img.shields.io/badge/Code-EVOKE-blue?logo=github)](https://github.com/EVOKE-LMM/EVOKE) [![website](https://img.shields.io/badge/Website-EVOKE-orange?logo=homepage)](https://evoke-lmm.github.io/)
+
+
 
 - `Preprint` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
 
