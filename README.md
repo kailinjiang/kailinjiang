@@ -23,7 +23,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 - USTC Email：📫  kailinjiang@mail.ustc.edu.cn
 
 # 📝 Publications
-
+*: Co-First Author, Equal Contribution
 
 - `ICLR2025 & ICLR2025 Workshop SSI-FM` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/abs/2502.19870), Yuntao Du\*, **Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
 <b style="color: #8B0000;">The Thirteenth International Conference on Learning Representations</b>
@@ -48,7 +48,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 # 📝 Preprints
-
+*: Co-First Author, Equal Contribution
 
 
 
