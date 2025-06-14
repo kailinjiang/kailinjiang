@@ -114,7 +114,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 </head>
 <body>
     <div class="map-container">
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=pBU5rAO3iBww8iWD4RJPnHsAq6uM9LcNALrf0nliRMs&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=je5F_lWiCT9d_1nlJrSDAQ7oBIhafAq9Er1Q9DPpYXg&cl=ffffff&w=a"></script>
     </div>
 </body>
 </html>
