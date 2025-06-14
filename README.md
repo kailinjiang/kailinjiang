@@ -97,29 +97,6 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map Widget</title>
-    <style>
-        .map-container {
-            width: 300px; 
-            margin: 0 auto; 
-            text-align: center; 
-        }
-        .map-container iframe {
-            width: 100%; 
-            height: 300px; 
-        }
-    </style>
-</head>
-<body>
-    <div class="map-container">
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=je5F_lWiCT9d_1nlJrSDAQ7oBIhafAq9Er1Q9DPpYXg&cl=ffffff&w=a"></script>
-    </div>
-</body>
-</html>
 
 
 
