@@ -57,7 +57,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.24449-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2505.24449) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-EVOKE-blue)](https://huggingface.co/datasets/kailinjiang/EVOKE)   [![code](https://img.shields.io/badge/Code-EVOKE-blue?logo=github)](https://github.com/EVOKE-LMM/EVOKE)  [![website](https://img.shields.io/badge/Website-EVOKE-orange?logo=homepage)](https://evoke-lmm.github.io/) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-EVOKE-BF55EC)](https://evoke-lmm.github.io/EVOKE/slides/When%20Large%20Multimodal%20Models%20Confront%20Evolving%20Knowledge%20Challenges%20and%20Pathways.pdf)
 
-- `Preprint` [MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models](), **Kailin Jiang\***, Ning Jiang\*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, yaocong hu, Bin Li, Lei Liu, Yuntao Du. 【2025.5】<br>
+- `Preprint` [MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models](), **Kailin Jiang\***, Ning Jiang\*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, yaocong hu, Bin Li, Lei Liu, Yuntao Du\*. 【2025.5】<br>
 
 [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/)
 
