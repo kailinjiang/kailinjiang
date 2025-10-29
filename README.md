@@ -59,7 +59,10 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang).
 
 - `Preprint` [MINED: Probing and Updating with Multimodal Time-Sensitive Knowledge for Large Multimodal Models](https://arxiv.org/pdf/2510.19457), **Kailin Jiang\***, Ning Jiang\*, Yuntao Du\*, Yuchen Ren, Yuchen Li, Yifan Gao, Jinhe Bi, Yunpu Ma, Qingqing Liu, Xianhao Wang, Yifan Jia, Hongbo Jiang, Yaocong Hu, Bin Li, Lei Liu. 【2025.5】<br>
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/)
+[![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MINED-blue)](https://huggingface.co/datasets/kailinjiang/MINED)   [![code](https://img.shields.io/badge/Code-MINED-blue?logo=github)](https://github.com/MINED-LMM/MINED)
+
+
+
 
 
 - `Preprint` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
