@@ -15,8 +15,11 @@ I am currently working on knowledge editing, knowledge injection, multimodal lea
 
 # 🔥 News
 <!-- Allowed emojis: 🎉🎉for good news 📣📣for average news-->
-- **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>！
-- **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**! <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>！
+- **2025.09**: &nbsp;🎉🎉 I will serve as **Reviewer** in ICLR 2026!
+- **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
+- **2025.02**: &nbsp;🎉🎉 I will serve as **Reviewer** in ICLR 2025 Workshop SSI-FM!
+- **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**! <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
+- **2024.09**: &nbsp;🎉🎉 I joined the **IIP Lab** at the University of Science and Technology of China to pursue a doctoral degree!
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
