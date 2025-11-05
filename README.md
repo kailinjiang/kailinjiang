@@ -69,9 +69,6 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang), !
 [![arXiv](https://img.shields.io/badge/Arxiv-2510.19457-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2510.19457) [![website](https://img.shields.io/badge/Website-MINED-orange?logo=homepage)](https://mined-lmm.github.io/) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MINED-blue)](https://huggingface.co/datasets/kailinjiang/MINED)   [![code](https://img.shields.io/badge/Code-MINED-blue?logo=github)](https://github.com/MINED-LMM/MINED) [![Slides](https://img.shields.io/badge/%F0%9F%93%8A%20Slides-MINED-BF55EC)](https://mined-lmm.github.io/MINED/MINED.pdf)
 
 
-
-
-
 - `Preprint` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
@@ -88,7 +85,9 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang), !
 
 
 
+- `Preprint` [Can Visual Input Be Compressed? A Visual Token Compression Benchmark for Large Multimodal Models](https://arxiv.org/abs/2511.02650), Tianfan Peng, Yuntao Du, Pengzhou Ji, Shijie Dong, **Kailin Jiang**, Mingchuan Ma, Yijun Tian, Jinhe Bi, Qian Li, Wei Du, Feng Xiao, Lizhen Cui. 【2025.9】<br>
 
+[![arXiv](https://img.shields.io/badge/Arxiv-2511.02650-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2511.02650)  [![code](https://img.shields.io/badge/Code-UniPruneBench-blue?logo=github)](https://github.com/TianfanPeng/VLMUniPruneBench) [![website](https://img.shields.io/badge/Website-UniPruneBench-orange?logo=homepage)](https://uniprunebench-lmm.github.io/)
 
 
 # 📰 Peer Review
