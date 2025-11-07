@@ -21,9 +21,9 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
 
-My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang), ![views](https://komarev.com/ghpvc/?username=kailinjiang&color=green)
+My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang), 
 
-
+<!-- ![views](https://komarev.com/ghpvc/?username=kailinjiang&color=green) -->
 
 ![](https://raw.githubusercontent.com/kailinjiang/kailinjiang/output/github-contribution-grid-snake.svg)
 
