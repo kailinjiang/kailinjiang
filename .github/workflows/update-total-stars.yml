@@ -2,7 +2,8 @@ name: Update Total Stars Count
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Cron 表达式 '0 * * * *' 表示在每小时的第 0 分钟运行
+    - cron: '0 * * * *' # 👈 已修改：从每天一次改为每小时一次
   workflow_dispatch:
 
 permissions:
@@ -32,7 +33,7 @@ jobs:
       - name: Run Python script to calculate stars
         env:
           # ⚠️【【【 你需要修改这里 】】】 ⚠️
-          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE" # 记得换成你的组织名
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE" # 记得换成你的组织名
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python main-branch/scripts/calculate_stars.py
         # 脚本会在根目录生成 total-stars.json
