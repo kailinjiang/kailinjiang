@@ -1,0 +1,60 @@
+name: Update Total Stars Count
+
+on:
+  # 1. 每天自动运行一次 (at 00:00 UTC)
+  schedule:
+    - cron: '0 0 * * *'
+  # 2. 允许你手动在 "Actions" 标签页触发
+  workflow_dispatch:
+
+# 允许这个 action 向你的仓库写入内容
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    steps:
+      # 第 1 步: 检出你的代码 (为了能运行 Python 脚本)
+      - name: Check out main branch
+        uses: actions/checkout@v4
+
+      # 第 2 步: 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 第 3 步: 安装 Python 依赖包 (只S需要 requests)
+      - name: Install dependencies
+        run: pip install requests
+
+      # 第 4 步: 运行 Python 脚本
+      - name: Run Python script to calculate stars
+        env:
+          # ⚠️【【【 你需要修改这里 】】】 ⚠️
+          # 把 'YOUR_ORG_NAME_1' 换成你组织的名字
+          # 如果有多个，用逗号隔开, 例如: "kailinjiang,MyOrg1,MyOrg2"
+          ACCOUNTS_TO_CHECK: "kailinjiang,YOUR_ORG_NAME_1"
+          
+          # GITHUB_TOKEN 会由 GitHub Actions 自动提供
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/calculate_stars.py
+
+      # 第 5 步: 将生成的 total-stars.json 文件提交到 google-scholar-stats 分支
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # 提交信息
+          commit_message: 'docs: update total stars count'
+          
+          # 要提交的分支 (它会自动创建这个分支，如果它不存在)
+          # 我们用你已有的 google-scholar-stats 分支来保持一致
+          branch: google-scholar-stats
+          
+          # 要提交的文件
+          file_pattern: total-stars.json
+          
+          # 提交者信息
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
