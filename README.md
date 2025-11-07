@@ -1,5 +1,22 @@
 ## Hi there 👋
 
+<div align="center">
+
+[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:D22229,100:2B4FA3&text=Hi%2C%20I'm%20Kailin%20Jiang&reversal=false&fontSize=40&fontAlignY=40&fontColor=FFFFFF)
+](https://kailinjiang.github.io/)
+
+</div>
+
+<div align="center">
+
+
+## [🏠 Homepage](https://kailinjiang.github.io/) [🎓 Google Scholar](https://scholar.google.com.hk/citations?user=NSHQsrAAAAAJ&hl=zh-CN) [🤝 LinkedIn](https://www.linkedin.com/in/diaoquesang/)
+
+[![GitHub User's stars](https://img.shields.io/github/stars/kailinjiang)](https://github.com/kailinjiang) [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang) [![Visitors](https://api.visitorbadge.io/api/visitors?path=kailinjiang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=kailinjiang)
+
+</div>
+
+
 I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://liqing.io/'>Qing Li(BIGAI, 李庆)</a>, <a href='https://yuntaodu.github.io/'>Yuntao Du(SDU, 杜云涛)</a>, <a href='https://siyuanqi.github.io/'>Siyuan Qi (Gyges Labs, 綦思源)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>, <a href='https://faculty.ustc.edu.cn/liulei13/zh_CN/index.htm'>Lei Liu (USTC, 刘磊)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence.
 
 I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
