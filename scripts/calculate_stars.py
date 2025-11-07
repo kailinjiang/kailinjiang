@@ -49,7 +49,6 @@ def get_all_repos_stars(account_name, token):
 
 def main():
     # 从 GitHub Actions 的环境变量中读取需要统计的账户列表
-    # 列表应该是一个用逗号分隔的字符串，例如 "user1,org1,org2"
     accounts_str = os.environ.get('ACCOUNTS_TO_CHECK')
     # 从环境变量中读取 GITHUB_TOKEN
     token = os.environ.get('GITHUB_TOKEN')
@@ -61,19 +60,31 @@ def main():
     accounts = accounts_str.split(',')
     total_stars = 0
     
+    # 🔴 新增：创建一个字典来存储每个账号的星标数
+    individual_stars = {}
+
     for account in accounts:
         if account: # 避免空字符串
-            total_stars += get_all_repos_stars(account.strip(), token)
+            account_name = account.strip()
+            
+            # 🔴 修改：获取星标并存入两个变量
+            stars = get_all_repos_stars(account_name, token)
+            individual_stars[account_name] = stars
+            total_stars += stars
 
     print(f"总 Star 数: {total_stars}")
+    print(f"详细分项: {individual_stars}")
 
     # 准备 shields.io 需要的 JSON 数据
     data = {
         "schemaVersion": 1,
-        "label": "Stars",
-        "message": str(total_stars),
+        "label": "Stars",  # 保持 "stars"
+        "message": str(total_stars), # 徽章仍然显示总数
         "color": "brightgreen",
-        "namedLogo": "github"
+        "namedLogo": "github",
+        
+        # 🔴 新增：把详细分项数据添加到 JSON 中
+        "breakdown": individual_stars
     }
 
     # 将 JSON 文件写入仓库根目录
