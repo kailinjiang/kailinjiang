@@ -70,7 +70,7 @@ def main():
     # 准备 shields.io 需要的 JSON 数据
     data = {
         "schemaVersion": 1,
-        "label": "Total Stars",
+        "label": "Stars",
         "message": str(total_stars),
         "color": "brightgreen",
         "namedLogo": "github"
