@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:D22229,100:2B4FA3&text=Hi%2C%20I'm%20Kailin%20Jiang, 蒋凯林&reversal=false&fontSize=40&fontAlignY=40&fontColor=FFFFFF)
+[![](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:D22229,100:2B4FA3&text=Hi%2C%20I'm%20Kailin%20Jiang%2C%20%E8%92%8B%E5%87%AF%E6%9E%97&reversal=false&fontSize=40&fontAlignY=40&fontColor=FFFFFF)
 ](https://kailinjiang.github.io/)
 
 </div>
