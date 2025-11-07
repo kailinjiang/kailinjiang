@@ -35,7 +35,7 @@ jobs:
           # ⚠️【【【 你需要修改这里 】】】 ⚠️
           # 把 'YOUR_ORG_NAME_1' 换成你组织的名字
           # 如果有多个，用逗号隔开, 例如: "kailinjiang,MyOrg1,MyOrg2"
-          ACCOUNTS_TO_CHECK: "kailinjiang,YOUR_ORG_NAME_1"
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench,EVOKE,MINED-LMM,MLLMKCBENCH,KORE-LMM"
           
           # GITHUB_TOKEN 会由 GitHub Actions 自动提供
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
