@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: '3.10'
 
-      # 第 3 步: 安装 Python 依赖包 (只S需要 requests)
+      # 第 3 步: 安装 Python 依赖包
       - name: Install dependencies
         run: pip install requests
 
@@ -41,6 +41,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/calculate_stars.py
 
+      # 🔴🔴🔴 新增的修复步骤 🔴🔴🔴
+      # 在 commit 之前，手动从 main 分支创建/切换到目标分支
+      - name: Create or switch to branch
+        run: git checkout -B google-scholar-stats
+
       # 第 5 步: 将生成的 total-stars.json 文件提交到 google-scholar-stats 分支
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -48,8 +53,8 @@ jobs:
           # 提交信息
           commit_message: 'docs: update total stars count'
           
-          # 要提交的分支 (它会自动创建这个分支，如果它不存在)
-          # 我们用你已有的 google-scholar-stats 分支来保持一致
+          # 要提交的分支
+          # (虽然上一步已经切换了，但这里仍然指定以确保推送到正确的地方)
           branch: google-scholar-stats
           
           # 要提交的文件
