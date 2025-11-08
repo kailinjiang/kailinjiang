@@ -83,7 +83,6 @@ def main():
             
         stars = 0
         
-        # 🔴 核心逻辑修改：检查是否有斜杠
         if '/' in item_name:
             # 这是一个仓库, 比如 "bigai-ai/ICE"
             stars = get_repo_stars(item_name, token)
@@ -97,22 +96,38 @@ def main():
     print(f"总 Star 数: {total_stars}")
     print(f"详细分项: {individual_stars}")
 
-    # 准备 shields.io 需要的 JSON 数据
-    data = {
+    # 🔴 文件 1: 准备 徽章 (badge) 专用 JSON 数据
+    badge_data = {
         "schemaVersion": 1,
-        "label": "Stars",
+        "label": "stars",
         "message": str(total_stars),
         "color": "brightgreen",
-        "namedLogo": "github",
+        "namedLogo": "github"
+    }
+    
+    # 🔴 文件 2: 准备 详细分类 (breakdown) 专用 JSON 数据
+    breakdown_data = {
+        "total": total_stars,
         "breakdown": individual_stars
     }
 
-    # 将 JSON 文件写入仓库根目录
-    output_filename = "total-stars.json"
-    with open(output_filename, 'w') as f:
-        json.dump(data, f, indent=2)
+    # 🔴 写入 两个 文件
+    badge_filename = "total-stars.json"
+    breakdown_filename = "stars-breakdown.json"
 
-    print(f"成功写入 {output_filename}")
+    try:
+        with open(badge_filename, 'w') as f:
+            json.dump(badge_data, f, indent=2)
+        print(f"成功写入徽章文件: {badge_filename}")
+
+        with open(breakdown_filename, 'w') as f:
+            json.dump(breakdown_data, f, indent=2)
+        print(f"成功写入分类文件: {breakdown_filename}")
+
+    except IOError as e:
+        print(f"Error: 写入 JSON 文件时出错: {e}")
+        sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
