@@ -2,8 +2,7 @@ name: Update Total Stars Count
 
 on:
   schedule:
-    # Cron 表达式 '0 * * * *' 表示在每小时的第 0 分钟运行
-    - cron: '0 * * * *'
+    - cron: '0 * * * *' # 每小时运行一次
   workflow_dispatch:
 
 permissions:
@@ -17,7 +16,7 @@ jobs:
       - name: Check out main branch
         uses: actions/checkout@v4
         with:
-          path: 'main-branch' # 检出到 'main-branch' 目录
+          path: 'main-branch'
 
       # 第 2 步: 设置 Python 环境
       - name: Set up Python
@@ -29,31 +28,31 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      # 第 4 步: 运行 Python 脚本 (注意路径)
+      # 第 4 步: 运行 Python 脚本
       - name: Run Python script to calculate stars
         env:
           ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python main-branch/scripts/calculate_stars.py
-        # 脚本会在根目录生成 total-stars.json 和 stars-breakdown.json
+        # 脚本只会在根目录生成 total-stars.json
 
       # 第 5 步: 检出 google-scholar-stats 分支 (为了放数据)
       - name: Check out data branch
         uses: actions/checkout@v4
         with:
-          ref: google-scholar-stats    # 检出数据分支
-          path: 'data-branch'          # 检出到 'data-branch' 目录
+          ref: google-scholar-stats
+          path: 'data-branch'
 
       # 第 6 步: 移动新生成的数据文件 (修改)
-      - name: Move new data files
-        run: mv total-stars.json stars-breakdown.json data-branch/
+      - name: Move new data file
+        run: mv total-stars.json data-branch/total-stars.json
 
       # 第 7 步: 提交并推送到 data-branch (google-scholar-stats) (修改)
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           repository: 'data-branch'
-          file_pattern: '*.json' # 👈 修改：提交所有 .json 文件
-          commit_message: 'docs: update total stars count and breakdown'
+          file_pattern: 'total-stars.json' # 👈 修改：只提交 total-stars.json
+          commit_message: 'docs: update total stars count'
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
