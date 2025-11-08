@@ -98,7 +98,7 @@ def main():
     # 准备 徽章 (badge) 专用 JSON 数据 (不含 breakdown)
     badge_data = {
         "schemaVersion": 1,
-        "label": "stars",  # 这是你想要的 "stars"
+        "label": "Stars",  # 这是你想要的 "stars"
         "message": str(total_stars),
         "color": "brightgreen",
         "namedLogo": "github"
