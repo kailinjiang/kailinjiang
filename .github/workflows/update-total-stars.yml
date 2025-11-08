@@ -29,7 +29,7 @@ jobs:
       # 第 4 步: 运行 Python 脚本
       - name: Run Python script to calculate stars
         env:
-          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/calculate_stars.py
         # 脚本会在根目录(.)生成 total-stars.json
