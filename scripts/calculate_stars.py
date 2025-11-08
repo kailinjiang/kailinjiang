@@ -64,7 +64,6 @@ def get_all_repos_stars(account_name, token):
     return stars_count
 
 def main():
-    # 从 GitHub Actions 的环境变量中读取需要统计的条目列表
     items_str = os.environ.get('ACCOUNTS_TO_CHECK')
     token = os.environ.get('GITHUB_TOKEN')
 
@@ -74,55 +73,44 @@ def main():
 
     items_to_check = items_str.split(',')
     total_stars = 0
-    individual_stars = {}
+    
+    # 我们仍然在日志里打印分类，只是不写入文件
+    individual_stars = {} 
 
     for item in items_to_check:
         item_name = item.strip()
-        if not item_name: # 避免空字符串
+        if not item_name:
             continue
             
         stars = 0
         
         if '/' in item_name:
-            # 这是一个仓库, 比如 "bigai-ai/ICE"
             stars = get_repo_stars(item_name, token)
         else:
-            # 这是一个账户/组织, 比如 "kailinjiang"
             stars = get_all_repos_stars(item_name, token)
             
         individual_stars[item_name] = stars
         total_stars += stars
 
     print(f"总 Star 数: {total_stars}")
-    print(f"详细分项: {individual_stars}")
+    print(f"详细分项 (仅供日志查看): {individual_stars}")
 
-    # 文件 1: 准备 徽章 (badge) 专用 JSON 数据
+    # 准备 徽章 (badge) 专用 JSON 数据 (不含 breakdown)
     badge_data = {
         "schemaVersion": 1,
-        "label": "stars",
+        "label": "stars",  # 这是你想要的 "stars"
         "message": str(total_stars),
         "color": "brightgreen",
         "namedLogo": "github"
     }
-    
-    # 文件 2: 准备 详细分类 (breakdown) 专用 JSON 数据
-    breakdown_data = {
-        "total": total_stars,
-        "breakdown": individual_stars
-    }
 
-    # 写入 两个 文件
+    # 只写入这一个文件
     badge_filename = "total-stars.json"
-    breakdown_filename = "stars-breakdown.json"
 
     try:
         with open(badge_filename, 'w') as f:
             json.dump(badge_data, f, indent=2)
         print(f"成功写入徽章文件: {badge_filename}")
-
-        with open(breakdown_filename, 'w') as f:
-            json.dump(breakdown_data, f, indent=2)
-        print(f"成功写入分类文件: {breakdown_filename}")
 
     except IOError as e:
         print(f"Error: 写入 JSON 文件时出错: {e}")
