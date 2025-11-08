@@ -10,7 +10,9 @@
 
 ## [🏠 Homepage](https://kailinjiang.github.io/) [🎓 Google Scholar](https://scholar.google.com.hk/citations?user=NSHQsrAAAAAJ&hl=zh-CN)
 
-<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang) [![Visitors](https://api.visitorbadge.io/api/visitors?path=kailinjiang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=kailinjiang)
+<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang@google-scholar-stats%2Ftotal-stars.json%3FcacheBuster%3D1">  [![GitHub followers](https://img.shields.io/github/followers/kailinjiang)](https://github.com/kailinjiang) [![Visitors](https://api.visitorbadge.io/api/visitors?path=kailinjiang&countColor=%23263759&style=flat&labelStyle=none)](https://visitorbadge.io/status?path=kailinjiang) <a href="https://huggingface.co/papers/2510.19316">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fpapers%2F2510.19316&query=$.likes&label=Likes&logo=huggingface&color=yellow">
+</a>
 
 </div>
 
