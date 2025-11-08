@@ -12,11 +12,10 @@ jobs:
   update-stars:
     runs-on: ubuntu-latest
     steps:
-      # 第 1 步: 检出 main 分支 (为了拿脚本)
+      # 第 1 步: 检出 main 分支
+      # (检出到默认路径，包含 scripts/ 文件夹)
       - name: Check out main branch
         uses: actions/checkout@v4
-        with:
-          path: 'main-branch'
 
       # 第 2 步: 设置 Python 环境
       - name: Set up Python
@@ -33,26 +32,27 @@ jobs:
         env:
           ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python main-branch/scripts/calculate_stars.py
-        # 脚本只会在根目录生成 total-stars.json
+        run: python scripts/calculate_stars.py
+        # 脚本会在根目录(.)生成 total-stars.json
 
-      # 第 5 步: 检出 google-scholar-stats 分支 (为了放数据)
-      - name: Check out data branch
-        uses: actions/checkout@v4
-        with:
-          ref: google-scholar-stats
-          path: 'data-branch'
-
-      # 第 6 步: 移动新生成的数据文件 (修改)
-      - name: Move new data file
-        run: mv total-stars.json data-branch/total-stars.json
-
-      # 第 7 步: 提交并推送到 data-branch (google-scholar-stats) (修改)
+      # 第 5 步: 提交并推送到 google-scholar-stats 分支
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          repository: 'data-branch'
-          file_pattern: 'total-stars.json' # 👈 修改：只提交 total-stars.json
+          # 要提交的文件
+          file_pattern: 'total-stars.json'
+          
+          # 提交信息
           commit_message: 'docs: update total stars count'
+          
+          # 目标分支 (如果不存在，它会自动创建)
+          branch: google-scholar-stats
+          
+          # 🔴 关键修复：
+          # 强制推送。这可以防止 "non-fast-forward" 错误。
+          # 因为这个分支只用于存放数据，所以强制覆盖是安全的。
+          push_options: '--force'
+          
+          # 提交者信息
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
