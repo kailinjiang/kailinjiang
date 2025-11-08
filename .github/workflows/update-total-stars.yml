@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # 第 1 步: 检出 main 分支
-      # (检出到默认路径，包含 scripts/ 文件夹)
       - name: Check out main branch
         uses: actions/checkout@v4
 
@@ -30,10 +29,16 @@ jobs:
       # 第 4 步: 运行 Python 脚本
       - name: Run Python script to calculate stars
         env:
-          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/calculate_stars.py
         # 脚本会在根目录(.)生成 total-stars.json
+
+      # 🔴 关键修复 1: 
+      # 在 commit 之前，强制在本地创建/切换到这个分支。
+      # 这可以防止 "invalid reference" 错误。
+      - name: Create or switch to data branch locally
+        run: git checkout -B google-scholar-stats
 
       # 第 5 步: 提交并推送到 google-scholar-stats 分支
       - name: Commit and push changes
@@ -45,12 +50,12 @@ jobs:
           # 提交信息
           commit_message: 'docs: update total stars count'
           
-          # 目标分支 (如果不存在，它会自动创建)
+          # 目标分支 (上一步已经创建好了)
           branch: google-scholar-stats
           
-          # 🔴 关键修复：
-          # 强制推送。这可以防止 "non-fast-forward" 错误。
-          # 因为这个分支只用于存放数据，所以强制覆盖是安全的。
+          # 🔴 关键修复 2: 
+          # 强制推送。因为这个分支只存数据，我们每次都从 main 创建它，
+          # 所以必须强制覆盖远程分支，防止 "non-fast-forward" 冲突。
           push_options: '--force'
           
           # 提交者信息
