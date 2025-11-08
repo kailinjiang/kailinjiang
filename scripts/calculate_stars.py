@@ -96,7 +96,7 @@ def main():
     print(f"总 Star 数: {total_stars}")
     print(f"详细分项: {individual_stars}")
 
-    # 🔴 文件 1: 准备 徽章 (badge) 专用 JSON 数据
+    # 文件 1: 准备 徽章 (badge) 专用 JSON 数据
     badge_data = {
         "schemaVersion": 1,
         "label": "stars",
@@ -105,13 +105,13 @@ def main():
         "namedLogo": "github"
     }
     
-    # 🔴 文件 2: 准备 详细分类 (breakdown) 专用 JSON 数据
+    # 文件 2: 准备 详细分类 (breakdown) 专用 JSON 数据
     breakdown_data = {
         "total": total_stars,
         "breakdown": individual_stars
     }
 
-    # 🔴 写入 两个 文件
+    # 写入 两个 文件
     badge_filename = "total-stars.json"
     breakdown_filename = "stars-breakdown.json"
 
