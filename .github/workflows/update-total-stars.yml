@@ -3,7 +3,7 @@ name: Update Total Stars Count
 on:
   schedule:
     # Cron 表达式 '0 * * * *' 表示在每小时的第 0 分钟运行
-    - cron: '0 * * * *' # 👈 已修改：从每天一次改为每小时一次
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -32,11 +32,10 @@ jobs:
       # 第 4 步: 运行 Python 脚本 (注意路径)
       - name: Run Python script to calculate stars
         env:
-          # ⚠️【【【 你需要修改这里 】】】 ⚠️
-          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE" # 记得换成你的组织名
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python main-branch/scripts/calculate_stars.py
-        # 脚本会在根目录生成 total-stars.json
+        # 脚本会在根目录生成 total-stars.json 和 stars-breakdown.json
 
       # 第 5 步: 检出 google-scholar-stats 分支 (为了放数据)
       - name: Check out data branch
@@ -45,16 +44,16 @@ jobs:
           ref: google-scholar-stats    # 检出数据分支
           path: 'data-branch'          # 检出到 'data-branch' 目录
 
-      # 第 6 步: 移动新生成的数据文件
-      - name: Move new data file
-        run: mv total-stars.json data-branch/total-stars.json
+      # 第 6 步: 移动新生成的数据文件 (修改)
+      - name: Move new data files
+        run: mv total-stars.json stars-breakdown.json data-branch/
 
-      # 第 7 步: 提交并推送到 data-branch (google-scholar-stats)
+      # 第 7 步: 提交并推送到 data-branch (google-scholar-stats) (修改)
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          repository: 'data-branch'    # ⚠️ 指定在 data-branch 目录里运行 git
-          file_pattern: 'total-stars.json' # 只提交这个文件
-          commit_message: 'docs: update total stars count'
+          repository: 'data-branch'
+          file_pattern: '*.json' # 👈 修改：提交所有 .json 文件
+          commit_message: 'docs: update total stars count and breakdown'
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
