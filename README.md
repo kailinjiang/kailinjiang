@@ -60,7 +60,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang),
 [![airchina](https://img.shields.io/badge/数源AI-MMKC_Bench-red?logo=airchina)](https://mp.weixin.qq.com/s/nlnFtrWrhFhKaS1vBgOp3Q)
 
 
-- `ICLR2025 & ICLR2025 Workshop SSI-FM` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/abs/2502.19870), Yuntao Du\*, **Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
+- `ICLR 2025 & ICLR 2025 Workshop SSI-FM` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/abs/2502.19870), Yuntao Du\*, **Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
 <b style="color: #8B0000;">The Thirteenth International Conference on Learning Representations</b>
 
 
@@ -71,7 +71,7 @@ My huggingface at 🤗 [Huggingface home](https://huggingface.co/kailinjiang),
 
 
 
-- `ICLR2025` [In-Context Editing: Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194), Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】<br>
+- `ICLR 2025` [In-Context Editing: Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194), Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】<br>
 <b style="color: #8B0000;">The Thirteenth International Conference on Learning Representations</b>
 
 
