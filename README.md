@@ -17,7 +17,9 @@
 
 <!-- [![GitHub User's stars](https://img.shields.io/github/stars/kailinjiang)](https://github.com/kailinjiang)   -->
 
-I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://liqing.io/'>Qing Li(BIGAI, 李庆)</a>, <a href='https://yuntaodu.github.io/'>Yuntao Du(SDU, 杜云涛)</a>, <a href='https://siyuanqi.github.io/'>Siyuan Qi (Gyges Labs, 綦思源)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>, <a href='https://faculty.ustc.edu.cn/liulei13/zh_CN/index.htm'>Lei Liu (USTC, 刘磊)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing, knowledge injection, multimodal learning, continual learning!
+I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='https://liqing.io/'>Qing Li(BIGAI, 李庆)</a> and <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>, <a href='https://faculty.ustc.edu.cn/liulei13/zh_CN/index.htm'>Lei Liu (USTC, 刘磊)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing, knowledge injection, multimodal learning, continual learning!
+
+<!--, <a href='https://yuntaodu.github.io/'>Yuntao Du(SDU, 杜云涛)</a>, <a href='https://siyuanqi.github.io/'>Siyuan Qi (Gyges Labs, 綦思源)</a>  -->
 
 <!-- I am currently working on knowledge editing, knowledge injection, multimodal learning, continual learning, <a href='https://scholar.google.com/citations?user=NSHQsrAAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FKailinJiang%2Fkailinjiang.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">  -->
 
