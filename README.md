@@ -53,6 +53,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 
 - `AAAI 2026 Oral` [Benchmarking Multimodal Knowledge Conflict for Large Multimodal Models](https://arxiv.org/pdf/2505.19509), Yifan Jia\*, **Kailin Jiang\***, Yuyang Liang, Qihan Ren, Yi Xin, Rui Yang, Fenze Feng, Mingcai Chen, Hengyang Lu, Haozhe Wang, Xiaoye Qu, Dongrui Liu, Lizhen Cui, Yuntao Du. 【2025.5】<br>
+
 <b style="color: #A52A2A;">The Fortieth AAAI Conference on Artificial Intelligence (AAAI-26 Oral)
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.19509-b31b1b.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19509) [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-MMKC_Bench-blue)](https://huggingface.co/datasets/starjyf/MLLMKC-datasets)   [![code](https://img.shields.io/badge/Code-MMKC_Bench-blue?logo=github)](https://github.com/MLLMKCBENCH/MLLMKC) [![website](https://img.shields.io/badge/Website-MMKC_Bench-orange?logo=homepage)](https://mllmkcbench.github.io/)
@@ -61,6 +62,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 
 - `ICLR 2025 & ICLR 2025 Workshop SSI-FM` [MMKE-Bench: A Multimodal Editing Benchmark for Diverse Visual Knowledge](https://arxiv.org/abs/2502.19870), Yuntao Du\*, **Kailin Jiang\***, Zhi Gao, Chenrui Shi, Zilong Zheng, Siyuan Qi, Qing Li. 【2024.10】<br>
+
 <b style="color: #A52A2A;">The Thirteenth International Conference on Learning Representations
 
 
@@ -72,6 +74,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 
 - `ICLR 2025` [In-Context Editing: Learning Knowledge from Self-Induced Distributions](https://arxiv.org/pdf/2406.11194), Siyuan Qi\*, Bangcheng Yang\*, **Kailin Jiang\***, Xiaobo Wang, Jiaqi Li, Yifan Zhong, Yaodong Yang, Zilong Zheng. 【2024.06】<br>
+
 <b style="color: #A52A2A;">The Thirteenth International Conference on Learning Representations
 
 
