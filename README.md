@@ -33,24 +33,6 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 
 # 🔥 News
 <!-- Allowed emojis: 🎉🎉for good news 📣📣for average news-->
-
-<style>
-.news .scroll-window { 
-  max-height: 260px; 
-  overflow-y: auto; 
-  padding: 8px 6px; 
-  border: 1px solid #eaeaea; 
-  border-radius: 12px; 
-  background: #fff; 
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.6), 0 6px 14px rgba(0,0,0,0.04); 
-}
-.news .scroll-window::-webkit-scrollbar { width: 8px; }
-.news .scroll-window::-webkit-scrollbar-thumb { background: #ddd; border-radius: 4px; }
-</style>
-
-<div class="news" markdown="1">
-<div class="scroll-window" markdown="1">
-
 - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2026**! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
 - **2026.01**: &nbsp;🎉🎉 I will serve as **Reviewer** in ICML 2026!
 - **2025.11**: &nbsp;🎉🎉 One paper have been accepted by **AAAI 2026 as Oral Presentation**! <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
@@ -61,10 +43,6 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 - **2024.09**: &nbsp;🎉🎉 I joined the **IIP Lab** at the University of Science and Technology of China to pursue a doctoral degree!
 - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
 - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
-
-</div>
-</div>
-<div style="margin-top: 5px; font-size: small; margin-bottom: 0px;">⬆ Scrollable</div>
 
 ### 📎 Homepages
 - Personal Pages: 🌱 [Personal Pages](https://kailinjiang.github.io/). (updated recently🔥)
