@@ -50,7 +50,7 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 - BIGAI Email：📫  jiangkailin@bigai.ai
 - USTC Email：📫  kailinjiang@mail.ustc.edu.cn
 
-# 📝 Publications
+<!-- # 📝 Publications
 *: Co-First Author, Equal Contribution
 
 
@@ -150,7 +150,7 @@ The Thirteenth International Conference on Learning Representations (ICLR-25)
 
 <p align="center">
   <img src="images/logo960.png" alt="BIGAI" width="200" height="60">
-</p>
+</p> -->
 
 
 
