@@ -31,19 +31,19 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
-<!-- # 🔥 News
-<!-- Allowed emojis: 🎉🎉for good news 📣📣for average news-->
-- **2026.04**: &nbsp;🎉🎉 One paper have been accepted by **ACL 2026**! <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
-- **2026.01**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2026**! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
-- **2026.01**: &nbsp;📣📣 I will serve as **Reviewer** in ICML 2026!
-- **2025.11**: &nbsp;🎉🎉 One paper have been accepted by **AAAI 2026 as Oral Presentation**! <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
-- **2025.09**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2026!
-- **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
-- **2025.02**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2025 Workshop SSI-FM!
-- **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**! <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
-- **2024.09**: &nbsp;📣📣 I joined the **IIP Lab** at the University of Science and Technology of China to pursue a doctoral degree!
-- **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
-- **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!  -->
+# # 🔥 News
+# <!-- Allowed emojis: 🎉🎉for good news 📣📣for average news-->
+# - **2026.04**: &nbsp;🎉🎉 One paper have been accepted by **ACL 2026**! <a href='https://arxiv.org/pdf/2510.19457'>Multimodal Time-Sensitive Knowledge</a>!
+# - **2026.01**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2026**! <a href='https://arxiv.org/abs/2505.24449'>Evolving Knowledge Injection</a>!
+# - **2026.01**: &nbsp;📣📣 I will serve as **Reviewer** in ICML 2026!
+# - **2025.11**: &nbsp;🎉🎉 One paper have been accepted by **AAAI 2026 as Oral Presentation**! <a href='https://arxiv.org/pdf/2505.19509'>Multimodal Knowledge Conflict</a>!
+# - **2025.09**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2026!
+# - **2025.03**: &nbsp;🎉🎉 One paper have been accepted by **ICLR 2025 Workshop SSI-FM**! <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
+# - **2025.02**: &nbsp;📣📣 I will serve as **Reviewer** in ICLR 2025 Workshop SSI-FM!
+# - **2025.01**: &nbsp;🎉🎉 Two paper have been accepted by **ICLR 2025**! <a href='https://arxiv.org/pdf/2406.11194'>In Context Editing</a> and <a href='https://mmke-bench-iclr.github.io/'>Multimodal Knowledge Editing</a>!
+# - **2024.09**: &nbsp;📣📣 I joined the **IIP Lab** at the University of Science and Technology of China to pursue a doctoral degree!
+# - **2024.06**: &nbsp;🎉🎉 I successfully completed my undergraduate studies from the College of Science of Sichuan Agricultural University!
+# - **2024.02**: &nbsp;📣📣 I will go to the State Key Laboratory of General Artificial Intelligence <a href='https://www.bigai.ai/'>(BIGAI)</a> to start my internship!
 
 ### 📎 Homepages
 - Personal Pages: 🌱 [Personal Pages](https://kailinjiang.github.io/). (updated recently🔥)
