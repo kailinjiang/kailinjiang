@@ -17,7 +17,7 @@
 
 <!-- [![GitHub User's stars](https://img.shields.io/github/stars/kailinjiang)](https://github.com/kailinjiang)   -->
 
-I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing, knowledge injection, multimodal learning, continual learning!
+<!-- I am an upcoming joint **PhD student** at **the State Key Laboratory of General Artificial Intelligence** <a href='https://www.bigai.ai/'>(BIGAI)</a> and **the University of Science and Technology of China** (USTC), supervised by <a href='http://staff.ustc.edu.cn/~binli/'>Bin Li (USTC, 李斌)</a>. Currently, I am doing my internship in State Key Laboratory of General Artificial Intelligence and working on knowledge editing, knowledge injection, multimodal learning, continual learning! -->
 
 <!--, <a href='https://yuntaodu.github.io/'>Yuntao Du(SDU, 杜云涛)</a>, <a href='https://siyuanqi.github.io/'>Siyuan Qi (Gyges Labs, 綦思源)</a>  -->
 
@@ -31,6 +31,13 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
+
+I am a **PhD student** in **University of Science and Technology of China** (USTC), supervised by Bin Li (USTC, 李斌). Currently, I am doing my internship in Tencent Yuanbao and working on Agentic Search, LLM for Ranking. Previously, I held research intern positions at BIGAI. 
+
+**Research Interests：**
+- **🧬 Continual Learning** — Enabling models to continuously acquire, update, and inject knowledge without catastrophic forgetting.
+- **⚖️ LLM for Ranking** — Leveraging large language models for next-generation information retrieval and ranking.
+- **🎯 MLLM Evaluation & Benchmarking** — Designing rigorous evaluation protocols to assess reasoning and reliability of foundation models.
 
 
 
