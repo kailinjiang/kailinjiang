@@ -37,7 +37,6 @@ I am an upcoming joint **PhD student** at **the State Key Laboratory of General 
 ### 📎 Homepages
 - Personal Pages: 🌱 [Personal Pages](https://kailinjiang.github.io/) (updated recently🔥)
 - Google Scholar: 🔭 [Google Scholar](https://scholar.google.com/citations?user=NSHQsrAAAAAJ&hl=zh-CN)
-- BIGAI Email：📫  jiangkailin@bigai.ai
 - USTC Email：📫  kailinjiang@mail.ustc.edu.cn
 
 
