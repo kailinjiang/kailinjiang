@@ -27,9 +27,15 @@ jobs:
         run: pip install requests
 
       # 第 4 步: 运行 Python 脚本
+      #
+      # 名单里两种写法含义不同:
+      #   裸账号名        —— 统计该账号名下所有仓库, 专用组织用这个, 以后往组织里
+      #                      新加仓库不用改这里
+      #   owner/repo 形式 —— 只统计这一个仓库。挂在合作者个人账号下的项目必须用
+      #                      这种写法, 否则会把对方名下无关仓库的 star 全算进来
       - name: Run Python script to calculate stars
         env:
-          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,bigai-ai/ICE"
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,KORE-LMM,Rubric4Setwise,bigai-ai/ICE,AaronLiu0702/MAPD,TianfanPeng/VLMUniPruneBench,baochenfu/OCT-Bench"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/calculate_stars.py
         # 脚本会在根目录(.)生成 total-stars.json
