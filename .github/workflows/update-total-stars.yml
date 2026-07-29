@@ -27,6 +27,12 @@ jobs:
         run: pip install requests
 
       # 第 4 步: 运行 Python 脚本
+      #
+      # 名单里两种写法含义不同:
+      #   裸账号名        —— 统计该账号名下所有仓库, 专用组织用这个, 以后往组织里
+      #                      新加仓库不用改这里
+      #   owner/repo 形式 —— 只统计这一个仓库。挂在合作者个人账号下的项目必须用
+      #                      这种写法, 否则会把对方名下无关仓库的 star 全算进来
       - name: Run Python script to calculate stars
         env:
           ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,Rubric4Setwise,KORE-LMM,bigai-ai/ICE,AaronLiu0702/MAPD,baochenfu/OCT-Bench"
@@ -34,30 +40,20 @@ jobs:
         run: python scripts/calculate_stars.py
         # 脚本会在根目录(.)生成 total-stars.json
 
-      # 🔴 关键修复 1: 
-      # 在 commit 之前，强制在本地创建/切换到这个分支。
-      # 这可以防止 "invalid reference" 错误。
-      - name: Create or switch to data branch locally
-        run: git checkout -B google-scholar-stats
+      # 第 5 步: 把 total-stars.json 单独发布到数据分支
+      #
+      # 用孤儿提交, 而不是从 main 建分支再强推。
+      # 原因: 从 main 建分支会把 .github/workflows/ 一起带上去, 那样每次改完
+      # workflow 之后的强推, 在 GitHub 看来就是"在数据分支上修改 workflow 文件",
+      # 而 GITHUB_TOKEN 没有 workflows 权限, 会被直接 reject。
+      # 孤儿提交的树里只有 total-stars.json 一个文件, 压根不涉及 workflow。
+      - name: Publish total-stars.json to data branch
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 第 5 步: 提交并推送到 google-scholar-stats 分支
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          # 要提交的文件
-          file_pattern: 'total-stars.json'
-          
-          # 提交信息
-          commit_message: 'docs: update total stars count'
-          
-          # 目标分支 (上一步已经创建好了)
-          branch: google-scholar-stats
-          
-          # 🔴 关键修复 2: 
-          # 强制推送。因为这个分支只存数据，我们每次都从 main 创建它，
-          # 所以必须强制覆盖远程分支，防止 "non-fast-forward" 冲突。
-          push_options: '--force'
-          
-          # 提交者信息
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
+          git checkout --orphan stars-tmp
+          git rm -rf --cached . > /dev/null   # 只清索引, 工作区文件不动
+          git add -f total-stars.json
+          git commit -m "docs: update total stars count"
+          git push --force origin stars-tmp:google-scholar-stats
