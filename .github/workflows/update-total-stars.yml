@@ -35,7 +35,7 @@ jobs:
       #                      这种写法, 否则会把对方名下无关仓库的 star 全算进来
       - name: Run Python script to calculate stars
         env:
-          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,Rubric4Setwise,KORE-LMM,bigai-ai/ICE,AaronLiu0702/MAPD,baochenfu/OCT-Bench"
+          ACCOUNTS_TO_CHECK: "kailinjiang,MMKE-Bench-ICLR,EVOKE-LMM,MINED-LMM,MLLMKCBENCH,AdaTutoRank,Rubric4Setwise,KORE-LMM,bigai-ai/ICE,AaronLiu0702/MAPD,baochenfu/OCT-Bench"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/calculate_stars.py
         # 脚本会在根目录(.)生成 total-stars.json
